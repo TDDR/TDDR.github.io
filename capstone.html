@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TDDR</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+
+       <!-- Navigation -->
+       <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">TDDR's Base</a>
+            </div>  
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="javaAI.html">Machine Learning with Java</a>
+                            </li>
+                            <li>
+                                <a href="capstone.html">Capstone Project</a>
+                            </li>
+                            <li>
+                                <a href="openSource.html">Open Source Development</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>   
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Capstone Project - Brix N Match (Work in Progress)</h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Portfolio Item Row -->
+        <div class="row">
+
+            <div class="col-md-6">
+                <h1>Project Proposal</h1>
+                <p>
+                    For this project we will be replacing the UI of a program called <a href="http://tidyblocks.tech">TidyBlocks</a> and adding a 'Sign In' feature that will allow users to save and share their work. The existing UI uses a complex and aging framework called Blockly, initially produced by Google, which has not had a major overhaul since more than a decade ago. We will reimplement the drag-and-click blocks interface using modern JavaScript (ES8) and SVG. We are doing this at the request of Dr. Greg Wilson who originally commissioned TidyBlocks.
+                </p>
+
+                <h3>Background</h3>
+                <p>
+                    TidyBlocks was created by a previous student of Wilson’s. Its purpose is to support learning in AP-level statistics courses in the US and Canada with the same style of interface used in <a href="http://scratch.mit.edu">Scratch</a> so that it will instantly be familiar to both students and teachers.
+                </p>
+
+                <h3>Replacement tool for 'Blockly'</h3>
+                <p>
+                    We will build a tool to replace Blockly which gives the user a set of predefined joinable blocks to use.  These will include Start Blocks, Middle Blocks, End Blocks, Grouping Blocks, and Insert Blocks. 
+                    Application developers will be able to subset our block classes and add functionality to them such as seen above (Filter, Group By, etc). The user will also be able to add new subclasses with novel UI elements not included in the base blocks. For example, an application developer might want to add a Color Selector block by creating a subclass of a Middle Block and adding a color picker.
+                </p>
+            </div>
+
+            <div class="col-md-6">
+                <img src="./media/basic-blockset.png" alt="basic block" width="600" height="500">
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>&copy; TDDR, 2021
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
